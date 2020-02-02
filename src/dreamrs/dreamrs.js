@@ -21,7 +21,6 @@ class DreamRS extends Component {
   render() {
     return (
       <div>
-        <div>Loading from react</div>
         <header className="main_menu home_menu">
             <div className="container">
                 <div className="row">
