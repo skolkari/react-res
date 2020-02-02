@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Hello from './Hello';
-import DreamRS from "./dreamrs/dreamrs";
-import './style.css';
 
-class App extends Component {
+class DreamRS extends Component {
   constructor() {
     super();
     this.state = {
@@ -15,10 +12,12 @@ class App extends Component {
   render() {
     return (
       <div>
-        <DreamRS></DreamRS>
+        <p>
+          Start editing to see some magic happen 11111111111111111111111111111111111111111111:)
+        </p>
       </div>
     );
   }
 }
 
-render(<App />, document.getElementById('root'));
+export default DreamRS;
