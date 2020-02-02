@@ -1,5 +1,14 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
+import './css/bootstrap.min.css';
+import './css/animate.css';
+import './css/owl.carousel.min.css';
+import './css/themify-icons.css';
+import './css/flaticon.css';
+import './css/magnific-popup.css';
+import './css/slick.css';
+import './fontawesome/css/all.min.css';
+import './css/style.css';
 
 class DreamRS extends Component {
   constructor() {
