@@ -12,6 +12,7 @@ class DreamRS extends Component {
   render() {
     return (
       <div>
+        <div>Loading from react</div>
         <header className="main_menu home_menu">
             <div className="container">
                 <div className="row">
@@ -613,8 +614,7 @@ class DreamRS extends Component {
                             <div id="mc_embed_signup">
                                 <form className="subscribe_form relative mail_part" required>
                                     <input type="email" name="email" id="newsletter-form-email" placeholder="Email Address"
-                                        className="placeholder hide-on-focus" onfocus="this.placeholder = ''"
-                                        onblur="this.placeholder = ' Email Address '" required="" type="email"/>
+                                        className="placeholder hide-on-focus"  required="" type="email"/>
                                     <button type="submit" name="submit" id="newsletter-submit"
                                         className="email_icon newsletter-submit button-contactForm"><i
                                             className="far fa-paper-plane"></i></button>
