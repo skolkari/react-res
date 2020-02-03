@@ -1,3 +1,4 @@
+import registerServiceWorker from './registerServiceWorker';
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Hello from './Hello';
@@ -22,3 +23,4 @@ class App extends Component {
 }
 
 render(<App />, document.getElementById('root'));
+registerServiceWorker();
